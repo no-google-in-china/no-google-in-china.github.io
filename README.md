@@ -43,16 +43,16 @@ That is solution to name to a one person but not to all. And there is no stable 
 
 List of projects affected
 
-1. eclipse.org had once website uupdate that made eclipse.org page loading long. Issue was raised, but consequently similar issues appeared.
-2. maven.org site was long to load, after their upgrade of skin, that started using jQuery on google CDN. Was resolved.
-3. https://projectlombok.org/ newer site. (Raise an issue point to this site, if you can see their bug tracker )
-4. http://struts.apache.org/ solved by https://github.com/apache/struts-site/pull/53 "Use http://code.jquery.com instead of googleapis.com"
+1. <eclipse.org> had once website uupdate that made eclipse.org page loading long. Issue was raised, but consequently similar issues appeared.
+2. <maven.org> site was long to load, after their upgrade of skin, that started using jQuery on google CDN. Was resolved.
+3. <https://projectlombok.org/> newer site. (Raise an issue point to this site, if you can see their bug tracker )
+4. <http://struts.apache.org/> solved by https://github.com/apache/struts-site/pull/53 "Use http://code.jquery.com instead of googleapis.com"
 
 ## Recent warming up
 
 1. Some resources are available from `*.google.cn` mirrows
-- https://developers.google.cn/
-- https://developer.android.google.cn/
+- <https://developers.google.cn/>
+- <https://developer.android.google.cn/>
 2. Google is opening offices in Shenzhen and other major cities. Still active in Developer relations.
 
 ## Help
