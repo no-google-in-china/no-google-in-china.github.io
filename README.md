@@ -20,3 +20,9 @@ Consider giving a way to get apk for side-loading or publishing to other stores 
 2. Some site fails to load over jQuery not available from Google CDN.
 
 
+## Recent warming up
+
+1. Some resources are available from `*.google.cn` mirrows
+- https://developers.google.cn/
+- https://developer.android.google.cn/
+2. Google is opening offices in Shenzhen and other major cities. Still active in Developer relations.
