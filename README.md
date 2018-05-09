@@ -22,10 +22,16 @@ Consider giving a way to get apk for side-loading or publishing to other stores 
 
 
 
-Some companies may be anaware, some may not care. The result is worse experience of Internet users in China.  
+Some companies may be unaware, some may be not caring. The result is worse experience of Internet users in China.  
 And this article tries to solve problem technically: what developers should know and do.
 
+Why you may not heard before? Because 90% of Chinese developers cannot express themselves in English. Relatively more are shiny, passive, not really know that can affect open source project. (This is however changing and fast.)
+
 ## Solutions
+
+1. For web site owners: never think that Internet resources are always available (it can be DNS error, 1 minute downtime, whatever...), so 
+- load JS resources asynchronosly: the page is shown while some JS may need some more time to load.
+- do not use CDN: if you site is already publishes on some sort of CDN like GitHub pages, why to have part of resources on other CDN? That would only make complecation (more names to be resolved via DNS, more servers contacted and so on)
 
 ### For project/site owner
 
@@ -46,7 +52,7 @@ List of projects affected
 1. <eclipse.org> had once website uupdate that made eclipse.org page loading long. Issue was raised, but consequently similar issues appeared.
 2. <maven.org> site was long to load, after their upgrade of skin, that started using jQuery on google CDN. Was resolved.
 3. <https://projectlombok.org/> newer site. (Raise an issue point to this site, if you can see their bug tracker )
-4. <http://struts.apache.org/> solved by https://github.com/apache/struts-site/pull/53 "Use http://code.jquery.com instead of googleapis.com"
+4. <http://struts.apache.org/> solved by [apache/struts-site#53](https://github.com/apache/struts-site/pull/53) "Use http://code.jquery.com instead of googleapis.com"
 
 ## Recent warming up
 
