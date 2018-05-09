@@ -9,17 +9,21 @@ Of course there is Google China as business entity, and of 2017-2018 it is even 
 However since about 2013 there is no Google servers within China, that already make requests travel over longer distance,
 and not as much instant as most are used now.
 
-Next, all services are blocked. There is no google.com, any google*.com, android.com, Google Play Android application market. (go lang site)
+Next, all services are blocked. There is no google.com, any google*.com, android.com, Google Play Android application market, Youtube. (go lang site)
 Absotely all services and products are not available.
 
 ## Problems as Consequances
 
-1. Publishing Android app only to Google Play, you miss 30% (700 000 000) smartphone users [1](https://en.wikipedia.org/wiki/List_of_countries_by_smartphone_penetration) (Yes world population is over 7 billion, and China has 1.3)  
-[2](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users)  
+1. Publishing Android app only to Google Play, you miss 30% (700 000 000) smartphone users 
+[1](https://en.wikipedia.org/wiki/List_of_countries_by_smartphone_penetration) 
+[2](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users)
+(Yes world population is over 7 billion, and China has 1.3)  
+ 
 Consider giving a way to get apk for side-loading or publishing to other stores as well: Amazon Store, F-droid (https://f-droid.org/) for open source project, Samsung makretplace and Chinese-based XiaoMi Market, Huawei Market, Tencent Market
 
-2. Some site fails to load over jQuery not available from Google CDN.
-
+2. Long waiting for page to load.
+3. Some site fails to display over jQuery not available from Google CDN.
+4. embedded Youtube videos are not shown.
 
 
 Some companies may be unaware, some may be not caring. The result is worse experience of Internet users in China.  
