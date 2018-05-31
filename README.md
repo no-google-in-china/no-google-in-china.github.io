@@ -18,24 +18,22 @@ Absotely all services and products are not available.
 [1](https://en.wikipedia.org/wiki/List_of_countries_by_smartphone_penetration) 
 [2](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users)
 (Yes world population is over 7 billion, and China has 1.3)  
- 
 Consider giving a way to get apk for side-loading or publishing to other stores as well: Amazon Store, F-droid (https://f-droid.org/) for open source project, Samsung makretplace and Chinese-based XiaoMi Market, Huawei Market, Tencent Market
-
-2. Long waiting for page to load.
-3. Some site fails to display over jQuery not available from Google CDN.
-4. embedded Youtube videos are not shown.
+2. Long waiting for page to load. Google is blocked not in a way that instantly returns error, but requests just finish by timeout, that are often about 1 minute. That is for 1 minute or so a web page is blank in browser.
+3. Some sites fail to display UI elements like menu over jQuery not available from Google CDN. That is while UI is shown, interaction is not possible.
+4. embedded Youtube videos are not shown. If video materials are key way for introduction, consider giving and alternative way to get it.
 
 
 Some companies may be unaware, some may be not caring. The result is worse experience of Internet users in China.  
 And this article tries to solve problem technically: what developers should know and do.
 
-Why you may not heard before? Because 90% of Chinese developers cannot express themselves in English. Relatively more are shiny, passive, not really know that can affect open source project. (This is however changing and fast.)
+Why you may not heard before? Because 90% of Chinese developers cannot express themselves in English. Relatively more are shy, passive, not really know that can affect open source project. (This is however changing and fast.)
 
 ## Solutions
 
 1. For web site owners: never think that Internet resources are always available (it can be DNS error, 1 minute downtime, whatever...), so 
-- load JS resources asynchronosly: the page is shown while some JS may need some more time to load.
-- do not use CDN: if you site is already publishes on some sort of CDN like GitHub pages, why to have part of resources on other CDN? That would only make complecation (more names to be resolved via DNS, more servers contacted and so on)
+- load JS resources **asynchronosly**: the page is shown while some JS may need some more time to load.
+- do not use CDN: if you site is already published on some sort of CDN like GitHub pages, why to have part of resources on other CDN? That would only make complecation (more names to be resolved via DNS, more servers contacted and so on)
 
 ### For project/site owner
 
@@ -47,16 +45,17 @@ Know, act.
 That is solution to name to a one person but not to all. And there is no stable VPN service in China.
 2. Search alternatives: Microsoft https://bing.com/, Russian Yandex https://yandex.com. ( ~~https://duckduckgo.com~~ returns the same results as Google and is not available.)
 3. NoScript browser plugin, that can block JS resource from specific site, becomes handy. Adding google site into as blacklisted/untrusted site solves long loading issue. But of course not jQuery on Google CDN issue.
-3. It should be possible to create browser plugin, that would dynamically replace Google CDN with customizable alternative, but not yet known.
+4. Ghostery browser plugin can block Google analitics and save time on page load.
+5. It should be possible to create browser plugin, that would dynamically replace Google CDN with customizable alternative, but not yet known.
 
 ## List
 
 List of projects affected
 
-1. <eclipse.org> had once website uupdate that made eclipse.org page loading long. Issue was raised, but consequently similar issues appeared.
-2. <maven.org> site was long to load, after their upgrade of skin, that started using jQuery on google CDN. Was resolved.
-3. <https://projectlombok.org/> newer site. (Raise an issue point to this site, if you can see their bug tracker )
-4. <http://struts.apache.org/> solved by [apache/struts-site#53](https://github.com/apache/struts-site/pull/53) "Use http://code.jquery.com instead of googleapis.com"
+1. [v] <eclipse.org> had once website uupdate that made eclipse.org page loading long. Issue was raised, but consequently similar issues appeared.
+2. [v] <maven.org> site was long to load, after their upgrade of skin, that started using jQuery on google CDN. Was resolved.
+3. [ ] <https://projectlombok.org/> newer site is now having not accessing menus. (Raise an issue point to this site, if you can see their bug tracker )
+4. [v] <http://struts.apache.org/> solved by [apache/struts-site#53](https://github.com/apache/struts-site/pull/53) "Use http://code.jquery.com instead of googleapis.com"
 
 ## Recent warming up
 
