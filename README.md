@@ -31,6 +31,7 @@ Why you may not heard before? Because 90% of Chinese developers cannot express t
 
 ## Solutions
 
+1. Publish Android app on Google Play and on alternative marketplaces as well: Amazon, F-Droid (if open source), Samsung, Huawei, Xiaomi, ...
 1. For web site owners: never think that Internet resources are always available (it can be DNS error, 1 minute downtime, whatever...), so 
 - load JS resources **asynchronosly**: the page is shown while some JS may need some more time to load.
 - do not use CDN: if you site is already published on some sort of CDN like GitHub pages, why to have part of resources on other CDN? That would only make complecation (more names to be resolved via DNS, more servers contacted and so on)
