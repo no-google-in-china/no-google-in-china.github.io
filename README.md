@@ -63,6 +63,7 @@ List of projects affected
 1. Some resources are available from `*.google.cn` mirrows
 - <https://developers.google.cn/>
 - <https://developer.android.google.cn/>
+- <https://source.android.google.cn/>
 - <https://golang.google.cn/>
 2. Google is opening offices in Shenzhen and other major cities. Still active in Developer relations.
 
