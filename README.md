@@ -68,12 +68,12 @@ List of projects affected
 - <https://golang.google.cn/>
 2. Google is opening offices in Shenzhen and other major cities. Still active in Developer relations.
 
-## Help
+## Help by action
 
 The problem re-appears as some frameworks add Google CDN resource assuming that they are always available,
 and always quick. 
 
-- Please file an issue explaining, this site should be helpful for reference.
+- Please file an issue to affected site explaining. This site should be helpful for reference.
 - [Edit/extend this page](https://github.com/no-google-in-china/no-google-in-china.github.io/edit/master/README.md)
 
 
