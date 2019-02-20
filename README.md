@@ -9,8 +9,8 @@ Of course there is Google China as business entity, and of 2017-2018 it is even 
 However since about 2013 there is no Google servers within China, that already make requests travel over longer distance,
 and not as much instant as most are used now.
 
-Next, all services are blocked. There is no google.com, any google*.com, android.com, Google Play Android application market, Youtube. (go lang site)
-Absotely all services and products are not available.
+Next, all services are blocked. There is no google.com, any google*.com, android.com, Google Play Android application market, Youtube, 
+almost all services and products are not available.
 
 ## Problems as Consequances
 
@@ -22,6 +22,7 @@ Consider giving a way to get apk for side-loading or publishing to other stores 
 2. Long waiting for page to load. Google is blocked not in a way that instantly returns error, but requests just finish by timeout, that are often about 1 minute. That is for 1 minute or so a web page is blank in browser.
 3. Some sites fail to display UI elements like menu over jQuery not available from Google CDN. That is while UI is shown, interaction is not possible.
 4. embedded Youtube videos are not shown. If video materials are key way for introduction, consider giving and alternative way to get it.
+5. Some services (e.g. [1](http://pypl.github.io/PYPL.html)), that Google data like Google Trends or Google Play market statistics as representing global situation, are missing China part completely.
 
 
 Some companies may be unaware, some may be not caring. The result is worse experience of Internet users in China.  
