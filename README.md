@@ -21,11 +21,11 @@ almost all services and products are not available.
 Consider giving a way to get apk for side-loading or publishing to other stores as well: Amazon Store, F-droid (https://f-droid.org/) for open source project, Samsung makretplace and Chinese-based XiaoMi Market, Huawei Market, Tencent Market
 2. Long waiting for page to load. Google is blocked not in a way that instantly returns error, but requests just finish by timeout, that are often about 1 minute. That is for 1 minute or so a web page is blank in browser.
 3. Some sites fail to display UI elements like menu over jQuery not available from Google CDN. That is while UI is shown, interaction is not possible.
-4. embedded Youtube videos are not shown. If video materials are key way for introduction, consider giving and alternative way to get it.
+4. Embedded Youtube videos are not shown. If video materials are key way for introduction, consider giving and alternative way to get it.
 5. Some services (e.g. [1](http://pypl.github.io/PYPL.html)), that Google data like Google Trends or Google Play market statistics as representing global situation, are missing China part completely.
 
 
-Some companies may be unaware, some may be not caring. The result is worse experience of Internet users in China.  
+Some companies may be unaware, some may be not caring. The result is worse experience of Internet users in China and wrong judgement for many people around the world.  
 And this article tries to solve problem technically: what developers should know and do.
 
 Why you may not heard before? Because 90% of Chinese developers cannot express themselves in English. Relatively more are shy, passive, not really know that can affect open source project. (This is however changing and fast.)
@@ -56,7 +56,7 @@ List of projects affected
 
 1. [v] <eclipse.org> had once website uupdate that made eclipse.org page loading long. Issue was raised, but consequently similar issues appeared.
 2. [v] <maven.org> site was long to load, after their upgrade of skin, that started using jQuery on google CDN. Was resolved.
-3. [ ] <https://projectlombok.org/> newer site is now having not accessing menus. (Raise an issue point to this site, if you can see their bug tracker )
+3. [v] <https://projectlombok.org/> newer site was having not accessible menus.
 4. [v] <http://struts.apache.org/> solved by [apache/struts-site#53](https://github.com/apache/struts-site/pull/53) "Use http://code.jquery.com instead of googleapis.com"
 
 ## Recent warming up
