@@ -12,7 +12,7 @@ and not as much instant as most are used now.
 Next, all services are blocked. There is no google.com, any google*.com, android.com, Google Play Android application market, Youtube, 
 almost all services and products are not available.
 
-## Problems as Consequances
+## Problems and Consequances
 
 1. Publishing Android app only to Google Play, you miss 30% (700 000 000) smartphone users 
 [1](https://en.wikipedia.org/wiki/List_of_countries_by_smartphone_penetration) 
