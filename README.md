@@ -54,8 +54,8 @@ That is solution to name to a one person but not to all. And there is no stable 
 
 List of projects affected
 
-1. [v] <eclipse.org> had once website uupdate that made eclipse.org page loading long. Issue was raised, but consequently similar issues appeared.
-2. [v] <maven.org> site was long to load, after their upgrade of skin, that started using jQuery on google CDN. Was resolved.
+1. [v] <https://eclipse.org> had once website update that made eclipse.org page loading long. Issue was raised, but consequently similar issues appeared.
+2. [v] <https://maven.org> site was long to load, after their upgrade of skin, that started using jQuery on google CDN. Was resolved.
 3. [v] <https://projectlombok.org/> newer site was having not accessible menus.
 4. [v] <http://struts.apache.org/> solved by [apache/struts-site#53](https://github.com/apache/struts-site/pull/53) "Use http://code.jquery.com instead of googleapis.com"
 
