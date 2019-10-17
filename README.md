@@ -6,8 +6,8 @@ Explaining situation from technical perspective
 You may have heard that there is no Google( as well as Facebook, Twitter ) in China.
 Of course there is Google China as business entity, and of 2017-2018 it is even expending its presense. 
 
-However since about 2013 there is no Google servers within China, that already make requests travel over longer distance,
-and not as much instant as most are used now.
+However since about 2013 there is no Google servers within China, that already makes requests travel over longer distance,
+and not as much instant responses as most people are used to now when using Internet.
 
 Next, all services are blocked. There is no google.com, any google*.com, android.com, Google Play Android application market, Youtube, 
 almost all services and products are not available.
