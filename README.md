@@ -59,7 +59,7 @@ List of projects affected
 3. [v] <https://projectlombok.org/> newer site was having not accessible menus.
 4. [v] <http://struts.apache.org/> solved by [apache/struts-site#53](https://github.com/apache/struts-site/pull/53) "Use http://code.jquery.com instead of googleapis.com"
 
-## Recent warming up
+## Google.cn mirror
 
 1. Some resources are available from `*.google.cn` mirrows
 - <https://developers.google.cn/>
